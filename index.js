@@ -61,7 +61,7 @@ app.use(session({
 app.use(express.json());
 
 app.get("/api/v1", (req, res) => {
-    res.send("<h2>Hi there, another test</h2>");
+    res.send("<h2>Hi there</h2>");
     console.log("This works")
 })
 
